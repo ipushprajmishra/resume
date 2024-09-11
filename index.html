@@ -1,71 +1,151 @@
-<!DOCTYPE HTML>
-<html lang="en" style="width:100%; height:100%;">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pushpraj Mishra's Resume</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #4e54c8, #8f94fb);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushpraj Mishra | Software Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 30px 0;
+        }
 
-    .container {
-      width: 80%;
-      height: 90%;
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
 
-    h1 {
-      color: #4e54c8;
-      text-align: center;
-      margin: 20px;
-      font-size: 32px;
-      font-weight: bold;
-    }
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
 
-    iframe {
-      width: 90%;
-      height: 80%;
-      border: none;
-      margin-bottom: 20px;
-    }
+        .header h4 {
+            color: #6c757d;
+        }
 
-    footer {
-      text-align: center;
-      font-size: 14px;
-      padding: 10px;
-      background-color: #f0f0f0;
-      width: 100%;
-      color: #555;
-    }
+        .container {
+            max-width: 1100px;
+        }
 
-    footer a {
-      color: #4e54c8;
-      text-decoration: none;
-      font-weight: bold;
-    }
-  </style>
+        .section-title {
+            font-size: 1.5rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .project-title {
+            font-weight: bold;
+        }
+
+        .btn-resume {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .btn-resume:hover {
+            background-color: #0056b3;
+        }
+
+        .achievement {
+            background-color: #e9f7ff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #007bff;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .btn-download {
+            margin-top: 20px;
+        }
+
+    </style>
 </head>
+
 <body>
-  <div class="container">
-    <h1>Welcome to Pushpraj's Resume</h1>
-    <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/ipushprajmishra/resume/main/Pushpraj_Mishra_5_yrs.pdf&embedded=true"></iframe>
+
+    <div class="header">
+        <h1>Pushpraj Mishra</h1>
+        <h4>Software Engineer | Cloud & Microservices Enthusiast</h4>
+        <p>Mumbai, MH, India | Email: ipushprajmishra@gmail.com | Contact No: +91 8369068835</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ipushprajmishra">https://www.linkedin.com/in/ipushprajmishra</a></p>
+        <a href="resume.pdf" class="btn-resume" download>Download Resume</a>
+    </div>
+
+    <div class="container">
+        <div class="section-title">Experience & Profile Summary</div>
+        <p>With over 5+ years of software engineering expertise, excelling in object-oriented real-time development,
+            and a strong track record of solving complex system issues with precision. Currently expanding expertise in
+            cloud computing and exploring emerging technologies. Passionate about working with cloud technologies and
+            microservices, with a focus on building scalable and reliable products.</p>
+
+        <div class="section-title">Key Skills</div>
+        <ul>
+            <li><strong>Technologies:</strong> .Net MVC, .NET Core Web API, ADO.NET, OOP, SQL</li>
+            <li><strong>Databases:</strong> MS SQL Server (2017 and 2019)</li>
+            <li><strong>Programming:</strong> C#, SQL, HTML, CSS, JavaScript, jQuery, Bootstrap, Angular (beginner)</li>
+            <li><strong>Cloud Technologies:</strong> AWS (EC2, S3, SQS, VPC, Route 53, ELB, Lambda)</li>
+            <li><strong>Microservices & Messaging:</strong> Kafka, MSMQ, SQS, Redis, Elastic Search, Ocelot</li>
+            <li><strong>Tools:</strong> Visual Studio, SQL Server Management Studio, Postman, Git, Docker (beginner)</li>
+        </ul>
+
+        <div class="section-title">Projects</div>
+        <div>
+            <p><span class="project-title">LocoBuzz Response Dashboard</span><br>
+                Developed a social media analytics platform enabling personalized user interaction with CRM capabilities.</p>
+        </div>
+        <div>
+            <p><span class="project-title">Cx Suite</span><br>
+                Advanced platform empowering organizations to monitor online buzz, optimize marketing campaigns, and
+                improve brand reputation.</p>
+        </div>
+        <div>
+            <p><span class="project-title">TATA Neu Command Center</span><br>
+                Command center for monitoring TATA Neu app performance and insights.</p>
+        </div>
+
+        <div class="section-title">Achievements</div>
+        <div class="achievement">Twice Scrum Rockstar and Acting Scrum Master - LocoBuzz Solutions</div>
+        <div class="achievement">Problem Solver Badge and Hi-Fi Badge - LTIMindtree</div>
+
+        <div class="section-title">Education</div>
+        <p>B.Sc. (IT) – V.E.S College of Arts, Science and Commerce (2015 – 2018) – 78.48%</p>
+        <p>HSC – National Sarvodaya Jr. College (2013 – 2015) – 72.77%</p>
+        <p>SSC – Chembur Karnataka High School (2013) – 75.64%</p>
+
+        <div class="section-title">Employers</div>
+        <ul>
+            <li>LocoBuzz Solutions Pvt. Ltd (Sept 2018 – July 2020)</li>
+            <li>Career Gap – Competitive Examination (July 2020 – August 2021)</li>
+            <li>LocoBuzz Solutions Pvt. Ltd (August 2021 – June 2023)</li>
+            <li>LTIMindtree (June 2023 – Present)</li>
+        </ul>
+    </div>
+
     <footer>
-      <p>For more details, visit <a href="https://github.com/ipushprajmishra" target="_blank">Pushpraj's GitHub</a></p>
+        <p>&copy; 2024 Pushpraj Mishra</p>
     </footer>
-  </div>
+
+    <!-- Download Button Script -->
+    <script>
+        document.querySelector('.btn-resume').addEventListener('click', function () {
+            window.location.href = 'resume.pdf'; // Add the link to your resume file here
+        });
+    </script>
+
 </body>
+
 </html>
